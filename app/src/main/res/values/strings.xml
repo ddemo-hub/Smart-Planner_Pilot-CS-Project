@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">BilPlanner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="colorPreferences">
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Magenta</item>
+        <item>Purple</item>
+        <item>Yellow</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="notificationPreferences">
+        <item>Mute</item>
+        <item>Ring</item>
+        <item>Vibrate</item>
+    </string-array>
+
+    <string-array name="importanceLevels">
+        <item>First Priority</item>
+        <item>Second Priority</item>
+        <item>Third Priority</item>
+    </string-array>
+
+    <string name="aboutPage">This app is created by Bilkent University
+        Computer Engineering Students
+        in July 2021 - summer school. The course code is CS-102
+        and section 001.\n\n
+        Group members are as follows:\n\n
+        Alperen Erdoğan\n
+        Ahmet Tuğrul Sağlam\n
+        Emirkan Derköken\n
+        Zeynep Doğa Dellal\n
+        İzzet Efe Kemaloğlu</string>
+
+    <string-array name="preferredZone">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+    </string-array>
+
+</resources>

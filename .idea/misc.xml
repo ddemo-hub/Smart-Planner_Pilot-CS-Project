@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/drawable/ic_home.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/activity_day.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/activity_exams.xml" value="0.25" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/activity_home.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/activity_main.xml" value="0.3423913043478261" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/activity_register.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/activity_schedule.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/activity_settings.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/activity_syllabus.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/activity_to_do_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/activity_user.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/app_bar_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/content_main.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/fragment_calendar.xml" value="0.3423913043478261" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/fragment_exams.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/fragment_home.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/fragment_schedule.xml" value="0.3423913043478261" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/fragment_syllabus.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/fragment_to_do_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/Documents/GitHub/CS_project/app/src/main/res/layout/nav_header_main.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/Tugrul/Klasor/Uni/CS/CS102/Summer/Project/app/src/main/res/layout/activity_add.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/Tugrul/Klasor/Uni/CS/CS102/Summer/Project/app/src/main/res/layout/activity_calendar.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/Tugrul/Klasor/Uni/CS/CS102/Summer/Project/app/src/main/res/layout/activity_user.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/Tugrul/Klasor/Uni/CS/CS102/Summer/Project/app/src/main/res/layout/content_main.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/Tugrul/Klasor/Uni/CS/CS102/Summer/Project/app/src/main/res/layout/nav_header_main.xml" value="0.23055555555555557" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

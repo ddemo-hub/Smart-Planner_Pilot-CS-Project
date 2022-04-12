@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deneme">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Deneme">
+        <activity android:name=".ui.home.HomeActivity"
+            android:label="Home"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".UserActivity"
+            android:label="User Page"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ui.calendar.DayActivity"
+            android:label="Day View"
+            android:parentActivityName=".ui.calendar.CalendarActivity" />
+        <activity
+            android:name=".ui.toDoList.ToDoListActivity"
+            android:label="To-Do List"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ui.syllabus.SyllabusActivity"
+            android:label="Syllabus"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ui.schedule.ScheduleActivity"
+            android:label="Schedule"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ui.exams.ExamsActivity"
+            android:label="Exams"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ui.drawingTool.DrawingToolActivity"
+            android:label="Drawing Tool"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ui.calendar.CalendarActivity"
+            android:label="Calendar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddActivity"
+            android:label="Add Activity"
+            android:parentActivityName=".ui.calendar.CalendarActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About This App"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Deneme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

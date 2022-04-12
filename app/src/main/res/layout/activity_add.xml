@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <Spinner
+        android:id="@+id/preferredZone"
+        android:layout_width="303dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <EditText
+        android:id="@+id/endMinuteEntry"
+        android:layout_width="49dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/endColon"
+        app:layout_constraintTop_toTopOf="@+id/endColon" />
+
+    <EditText
+        android:id="@+id/endHourEntry"
+        android:layout_width="51dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/startMinuteEntry"
+        app:layout_constraintTop_toTopOf="@+id/startMinuteEntry" />
+
+    <TextView
+        android:id="@+id/endColon"
+        android:layout_width="17dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text=":"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/endHourEntry"
+        app:layout_constraintTop_toTopOf="@+id/endHourEntry" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="213dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="44dp"
+        android:text="Start-End Time:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/addActivityTitle"
+        app:layout_constraintTop_toBottomOf="@+id/addActivityTitle" />
+
+    <Button
+        android:id="@+id/createTaskButton"
+        android:layout_width="136dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="48dp"
+        android:onClick="createTask"
+        android:text="Create"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addActivityImportance" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="158dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="36dp"
+        android:text="Title:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addActivityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Enter title here"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Category"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <Spinner
+        android:id="@+id/addActivityCategory"
+        android:layout_width="303dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <Spinner
+        android:id="@+id/addActivityImportance"
+        android:layout_width="303dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="@+id/addActivityCategory"
+        app:layout_constraintTop_toBottomOf="@+id/addActivityCategory" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="Importance"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/categorySwitch"
+        app:layout_constraintTop_toTopOf="@+id/textView17" />
+
+    <Switch
+        android:id="@+id/timeSwitch"
+        android:layout_width="53dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/startHourEntry"
+        android:layout_width="51dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/startMinuteEntry"
+        android:layout_width="49dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/startColon"
+        app:layout_constraintTop_toTopOf="@+id/startHourEntry" />
+
+    <TextView
+        android:id="@+id/startColon"
+        android:layout_width="17dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text=":"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/startHourEntry"
+        app:layout_constraintTop_toTopOf="@+id/startHourEntry" />
+
+    <EditText
+        android:id="@+id/timeAllocation"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toTopOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="173dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="36dp"
+        android:text="Time Allocation:"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/startHourEntry"
+        app:layout_constraintTop_toBottomOf="@+id/startHourEntry" />
+
+    <Switch
+        android:id="@+id/categorySwitch"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toTopOf="@+id/textView17" />
+</androidx.constraintlayout.widget.ConstraintLayout>

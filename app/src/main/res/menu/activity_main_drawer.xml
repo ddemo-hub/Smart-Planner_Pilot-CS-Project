@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_toDoList"
+            android:icon="@drawable/ic_to_do_list"
+            android:title="To-do List" />
+        <item
+            android:id="@+id/nav_exams"
+            android:icon="@drawable/ic_exams"
+            android:title="Exams" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="Weekly Schedule" />
+        <item
+            android:id="@+id/nav_syllabus"
+            android:icon="@drawable/ic_syllabus"
+            android:title="Syllabus" />
+        <item
+            android:id="@+id/nav_drawingTool"
+            android:icon="@drawable/ic_drawing"
+            android:title="Drawing Tool" />
+    </group>
+</menu>

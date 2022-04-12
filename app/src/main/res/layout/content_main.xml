@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002366"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <fragment
+        android:id="@+id/nav_host_fragment_content_main"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#673AB7"
+        app:defaultNavHost="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/mobile_navigation" />
+
+    <Button
+        android:id="@+id/testButton2"
+        android:layout_width="250dp"
+        android:layout_height="67dp"
+        android:onClick="goUserPage"
+        android:text="PROFILE PAGE"
+        android:textSize="20sp"
+        app:backgroundTint="#DC143C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518" />
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="250dp"
+        android:layout_height="67dp"
+        android:onClick="launchDailyCalendar"
+        android:text="TODAY'S SCHEDULE"
+        android:textSize="20sp"
+        app:backgroundTint="#DC143C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <Button
+        android:id="@+id/testButton4"
+        android:layout_width="250dp"
+        android:layout_height="67dp"
+        android:onClick="launchCalendar"
+        android:text="CALENDAR"
+        android:textSize="20sp"
+        app:backgroundTint="#DC143C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <Button
+        android:id="@+id/testButton3"
+        android:layout_width="250dp"
+        android:layout_height="67dp"
+        android:onClick="launchSettings"
+        android:text="SETTINGS"
+        android:textSize="20sp"
+        app:backgroundTint="#DC143C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="367dp"
+        android:layout_height="56dp"
+        android:text="Welcome to BilPlanner"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_main"
+        app:layout_constraintVertical_bias="0.025" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

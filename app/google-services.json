@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "273707612987",
+    "project_id": "bilcalendar-43eda",
+    "storage_bucket": "bilcalendar-43eda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273707612987:android:be818b45e616193498951e",
+        "android_client_info": {
+          "package_name": "com.example.deneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273707612987-fkveojr5h80eo7clge71nka643b4oqdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnRzIj-Mll36A1kNmar7FCP-Z8e1Z_Iug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273707612987-fkveojr5h80eo7clge71nka643b4oqdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
